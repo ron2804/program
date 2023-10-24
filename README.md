@@ -1,0 +1,1 @@
+# This is a pyhton project folder with diiferent types of programs usualyy used as pratice and tutorials i have tried sofar.
