@@ -39,6 +39,33 @@ while ch=="y" or ch== "y":
         elif m==2:
             a=p+l+o
             print("the summ  of three no. is:",a)
+    if x==3:
+        print("-------------------------------")
+        print("1.multply two ")
+        print("2.multply three ")
+        print("-------------------------------")
+        m=int(input("enter choice:"))
+        if m==1:
+             print("-------------------------------")
+             print("1.multply first and second")
+             print("2.multply third and second ")
+             print("3.multply first and third")
+             print("-------------------------------")
+             n=int(input("enter choice:"))
+             if n==1:
+                  a=p*l
+                  print("the multply  of first and secondno. is:",a) 
+             if n==2:
+                 a=l*o
+                 print("the multply  of third and second no. is:",a)
+             if n==3:
+                 a=p*o
+                 print("the multply of first and third no. is:",a)
+        elif m==2:
+            a=p*l*o
+            print("the multply  of three no. is:",a)
+        
+       
     if x==5:
        break
        
